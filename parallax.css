@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container-parallax {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  perspective: 100px;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.layer {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.layer.layer-1 {
+  background-image: url(images/pngegg\ \(8\).png);
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  transform: translateZ(-600px) translateY(1500px) translateX(1800px);
+  z-index: 6;
+}
+.layer.layer-2 {
+  background-image: url(images/pngegg\ \(5\).png);
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+  transform: translateZ(-500px) translateY(2100px) translateX(-2200px) scale(2);
+  z-index: 5;
+}
+.layer.layer-3 {
+  background-image: url(images/pngegg\ \(3\).png);
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  transform: translateZ(-400px) scale(5);
+  z-index: 4;
+}
+.layer.layer-4 {
+  background-image: url(images/pngegg\ \(6\).png);
+  background-repeat: no-repeat;
+  background-size: 99.5% 100%;
+  transform: translateZ(-300px) scale(4);
+  z-index: 3;
+}
+.layer.layer-5 {
+  background-image: url(images/pngegg\ \(7\).png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform: translateZ(-200px) scale(2.5);
+  z-index: 2;
+}
+.layer.layer-6 {
+  background-image: url(images/ama-dablam-2064522_640.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform: translateZ(-100px) scale(2);
+  z-index: 1;
+}/*# sourceMappingURL=parallax.css.map */

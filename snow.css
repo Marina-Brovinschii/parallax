@@ -1,0 +1,1224 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flake-layer {
+  position: relative;
+}
+.flake-layer .flake {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  position: fixed;
+  top: -10px;
+  animation: fall 20s linear infinite;
+}
+@keyframes fall {
+  from {
+    top: -10px;
+  }
+  to {
+    top: 100%;
+  }
+}
+.flake-layer .flake:nth-child(1) {
+  left: 90%;
+  animation-delay: 3.2176464546s;
+  animation-duration: 25.1454587774s;
+  width: 3.9768612251px;
+  height: 3.9768612251px;
+  background-color: #b3bdd3;
+}
+.flake-layer .flake:nth-child(2) {
+  left: 136%;
+  animation-delay: 1.1480560172s;
+  animation-duration: 25.6467076067s;
+  width: 3.8991359645px;
+  height: 3.8991359645px;
+  background-color: #b0bbd2;
+}
+.flake-layer .flake:nth-child(3) {
+  left: 21%;
+  animation-delay: 19.9192098587s;
+  animation-duration: 14.0410056461s;
+  width: 7.1219969937px;
+  height: 7.1219969937px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(4) {
+  left: 35%;
+  animation-delay: 9.9397008025s;
+  animation-duration: 17.7895916838s;
+  width: 5.6212644887px;
+  height: 5.6212644887px;
+  background-color: #e8ebf2;
+}
+.flake-layer .flake:nth-child(5) {
+  left: 137%;
+  animation-delay: 3.0474998145s;
+  animation-duration: 19.9337767725s;
+  width: 5.0166108079px;
+  height: 5.0166108079px;
+  background-color: #d4dae7;
+}
+.flake-layer .flake:nth-child(6) {
+  left: 28%;
+  animation-delay: 13.4077144086s;
+  animation-duration: 18.6132098212s;
+  width: 5.3725284871px;
+  height: 5.3725284871px;
+  background-color: #e0e4ed;
+}
+.flake-layer .flake:nth-child(7) {
+  left: 100%;
+  animation-delay: 0.6443028896s;
+  animation-duration: 21.7779103247s;
+  width: 4.5918087874px;
+  height: 4.5918087874px;
+  background-color: #c6cfdf;
+}
+.flake-layer .flake:nth-child(8) {
+  left: 80%;
+  animation-delay: 9.6550532336s;
+  animation-duration: 38.446186553s;
+  width: 2.6010382034px;
+  height: 2.6010382034px;
+  background-color: #8697ba;
+}
+.flake-layer .flake:nth-child(9) {
+  left: 81%;
+  animation-delay: 0.8941909071s;
+  animation-duration: 20.1296743926s;
+  width: 4.9677902409px;
+  height: 4.9677902409px;
+  background-color: #d3d9e6;
+}
+.flake-layer .flake:nth-child(10) {
+  left: 1%;
+  animation-delay: 2.1929138383s;
+  animation-duration: 17.4330368697s;
+  width: 5.7362352152px;
+  height: 5.7362352152px;
+  background-color: #eceef4;
+}
+.flake-layer .flake:nth-child(11) {
+  left: 135%;
+  animation-delay: 18.0900906909s;
+  animation-duration: 16.6969858312s;
+  width: 5.9891049206px;
+  height: 5.9891049206px;
+  background-color: #f4f5f9;
+}
+.flake-layer .flake:nth-child(12) {
+  left: 132%;
+  animation-delay: 8.6969212504s;
+  animation-duration: 22.9123795066s;
+  width: 4.3644528484px;
+  height: 4.3644528484px;
+  background-color: #bfc8da;
+}
+.flake-layer .flake:nth-child(13) {
+  left: 20%;
+  animation-delay: 19.4335928571s;
+  animation-duration: 17.7282076336s;
+  width: 5.6407281586px;
+  height: 5.6407281586px;
+  background-color: #e9ecf2;
+}
+.flake-layer .flake:nth-child(14) {
+  left: 64%;
+  animation-delay: 8.4619117177s;
+  animation-duration: 25.4184324808s;
+  width: 3.9341529056px;
+  height: 3.9341529056px;
+  background-color: #b1bcd3;
+}
+.flake-layer .flake:nth-child(15) {
+  left: 58%;
+  animation-delay: 2.7076858648s;
+  animation-duration: 25.0511346747s;
+  width: 3.9918351523px;
+  height: 3.9918351523px;
+  background-color: #b3bed4;
+}
+.flake-layer .flake:nth-child(16) {
+  left: 147%;
+  animation-delay: 18.7696973682s;
+  animation-duration: 30.933326452s;
+  width: 3.2327593398px;
+  height: 3.2327593398px;
+  background-color: #9aa9c5;
+}
+.flake-layer .flake:nth-child(17) {
+  left: 148%;
+  animation-delay: 9.0358582813s;
+  animation-duration: 14.5293706613s;
+  width: 6.8826105639px;
+  height: 6.8826105639px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(18) {
+  left: 150%;
+  animation-delay: 3.5909501669s;
+  animation-duration: 15.475665923s;
+  width: 6.4617574777px;
+  height: 6.4617574777px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(19) {
+  left: 37%;
+  animation-delay: 6.3254613567s;
+  animation-duration: 21.5321250213s;
+  width: 4.6442234522px;
+  height: 4.6442234522px;
+  background-color: #c8d0e0;
+}
+.flake-layer .flake:nth-child(20) {
+  left: 87%;
+  animation-delay: 7.1098380718s;
+  animation-duration: 14.3760440603s;
+  width: 6.9560165217px;
+  height: 6.9560165217px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(21) {
+  left: 123%;
+  animation-delay: 15.8413393408s;
+  animation-duration: 37.1403632215s;
+  width: 2.6924884769px;
+  height: 2.6924884769px;
+  background-color: #899abb;
+}
+.flake-layer .flake:nth-child(22) {
+  left: 79%;
+  animation-delay: 9.5541048202s;
+  animation-duration: 18.9780953907s;
+  width: 5.269232657px;
+  height: 5.269232657px;
+  background-color: #dce1eb;
+}
+.flake-layer .flake:nth-child(23) {
+  left: 104%;
+  animation-delay: 18.2441468569s;
+  animation-duration: 19.4593624412s;
+  width: 5.1389145098px;
+  height: 5.1389145098px;
+  background-color: #d8dee9;
+}
+.flake-layer .flake:nth-child(24) {
+  left: 27%;
+  animation-delay: 2.7011296446s;
+  animation-duration: 37.659700648s;
+  width: 2.6553583348px;
+  height: 2.6553583348px;
+  background-color: #8899bb;
+}
+.flake-layer .flake:nth-child(25) {
+  left: 119%;
+  animation-delay: 10.6863617788s;
+  animation-duration: 31.5698954702s;
+  width: 3.1675746312px;
+  height: 3.1675746312px;
+  background-color: #98a7c4;
+}
+.flake-layer .flake:nth-child(26) {
+  left: 119%;
+  animation-delay: 8.3037622002s;
+  animation-duration: 17.9171436653s;
+  width: 5.5812467583px;
+  height: 5.5812467583px;
+  background-color: #e7eaf1;
+}
+.flake-layer .flake:nth-child(27) {
+  left: 76%;
+  animation-delay: 0.2802316303s;
+  animation-duration: 20.1086213798s;
+  width: 4.9729913409px;
+  height: 4.9729913409px;
+  background-color: #d3d9e6;
+}
+.flake-layer .flake:nth-child(28) {
+  left: 60%;
+  animation-delay: 9.2343339636s;
+  animation-duration: 18.5603063323s;
+  width: 5.3878421083px;
+  height: 5.3878421083px;
+  background-color: #e0e5ed;
+}
+.flake-layer .flake:nth-child(29) {
+  left: 82%;
+  animation-delay: 17.2766525962s;
+  animation-duration: 33.0894308508s;
+  width: 3.0221130261px;
+  height: 3.0221130261px;
+  background-color: #94a3c2;
+}
+.flake-layer .flake:nth-child(30) {
+  left: 103%;
+  animation-delay: 16.4748488162s;
+  animation-duration: 20.4055192841s;
+  width: 4.9006349021px;
+  height: 4.9006349021px;
+  background-color: #d1d7e4;
+}
+.flake-layer .flake:nth-child(31) {
+  left: 45%;
+  animation-delay: 7.1868168983s;
+  animation-duration: 26.6737843035s;
+  width: 3.7489993494px;
+  height: 3.7489993494px;
+  background-color: #abb7cf;
+}
+.flake-layer .flake:nth-child(32) {
+  left: 86%;
+  animation-delay: 15.1015867818s;
+  animation-duration: 14.6593150428s;
+  width: 6.8216011258px;
+  height: 6.8216011258px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(33) {
+  left: 75%;
+  animation-delay: 7.1694192999s;
+  animation-duration: 15.0338273272s;
+  width: 6.6516661276px;
+  height: 6.6516661276px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(34) {
+  left: 148%;
+  animation-delay: 6.8462325625s;
+  animation-duration: 36.178801539s;
+  width: 2.7640495469px;
+  height: 2.7640495469px;
+  background-color: #8b9cbd;
+}
+.flake-layer .flake:nth-child(35) {
+  left: 40%;
+  animation-delay: 12.8896089799s;
+  animation-duration: 22.644105599s;
+  width: 4.4161602923px;
+  height: 4.4161602923px;
+  background-color: #c1cadb;
+}
+.flake-layer .flake:nth-child(36) {
+  left: 8%;
+  animation-delay: 0.2309072212s;
+  animation-duration: 14.5456376309s;
+  width: 6.8749134646px;
+  height: 6.8749134646px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(37) {
+  left: 99%;
+  animation-delay: 5.8662218933s;
+  animation-duration: 14.9752444955s;
+  width: 6.6776873012px;
+  height: 6.6776873012px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(38) {
+  left: 84%;
+  animation-delay: 7.7294634707s;
+  animation-duration: 32.04994386s;
+  width: 3.1201302703px;
+  height: 3.1201302703px;
+  background-color: #97a6c3;
+}
+.flake-layer .flake:nth-child(39) {
+  left: 131%;
+  animation-delay: 7.1395253494s;
+  animation-duration: 39.8862124942s;
+  width: 2.5071320074px;
+  height: 2.5071320074px;
+  background-color: #8395b8;
+}
+.flake-layer .flake:nth-child(40) {
+  left: 39%;
+  animation-delay: 17.0689730597s;
+  animation-duration: 19.896459339s;
+  width: 5.026019871px;
+  height: 5.026019871px;
+  background-color: #d5dbe7;
+}
+.flake-layer .flake:nth-child(41) {
+  left: 132%;
+  animation-delay: 6.3957816724s;
+  animation-duration: 14.6336563277s;
+  width: 6.8335621502px;
+  height: 6.8335621502px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(42) {
+  left: 112%;
+  animation-delay: 14.9796483078s;
+  animation-duration: 39.2622984696s;
+  width: 2.5469726404px;
+  height: 2.5469726404px;
+  background-color: #8496b9;
+}
+.flake-layer .flake:nth-child(43) {
+  left: 131%;
+  animation-delay: 2.4967685048s;
+  animation-duration: 21.008632544s;
+  width: 4.7599480733px;
+  height: 4.7599480733px;
+  background-color: #ccd3e2;
+}
+.flake-layer .flake:nth-child(44) {
+  left: 57%;
+  animation-delay: 13.7861003085s;
+  animation-duration: 23.0198821927s;
+  width: 4.3440708846px;
+  height: 4.3440708846px;
+  background-color: #bec8da;
+}
+.flake-layer .flake:nth-child(45) {
+  left: 56%;
+  animation-delay: 4.881037556s;
+  animation-duration: 23.0833008646s;
+  width: 4.3321360574px;
+  height: 4.3321360574px;
+  background-color: #bec7da;
+}
+.flake-layer .flake:nth-child(46) {
+  left: 36%;
+  animation-delay: 13.0927499769s;
+  animation-duration: 15.5136561357s;
+  width: 6.4459337712px;
+  height: 6.4459337712px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(47) {
+  left: 91%;
+  animation-delay: 17.1772184639s;
+  animation-duration: 15.9883317148s;
+  width: 6.2545612503px;
+  height: 6.2545612503px;
+  background-color: #fcfdfe;
+}
+.flake-layer .flake:nth-child(48) {
+  left: 12%;
+  animation-delay: 3.7020283242s;
+  animation-duration: 14.7677376018s;
+  width: 6.771517933px;
+  height: 6.771517933px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(49) {
+  left: 15%;
+  animation-delay: 1.5804673675s;
+  animation-duration: 28.8075016864s;
+  width: 3.4713180299px;
+  height: 3.4713180299px;
+  background-color: #a2afca;
+}
+.flake-layer .flake:nth-child(50) {
+  left: 133%;
+  animation-delay: 17.9175553227s;
+  animation-duration: 14.6492717901s;
+  width: 6.8262778814px;
+  height: 6.8262778814px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(51) {
+  left: 114%;
+  animation-delay: 17.5298255269s;
+  animation-duration: 13.7583281033s;
+  width: 7.2683249919px;
+  height: 7.2683249919px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(52) {
+  left: 130%;
+  animation-delay: 3.2749916869s;
+  animation-duration: 14.8206406973s;
+  width: 6.7473466257px;
+  height: 6.7473466257px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(53) {
+  left: 33%;
+  animation-delay: 18.7690480268s;
+  animation-duration: 14.6979253357s;
+  width: 6.8036813167px;
+  height: 6.8036813167px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(54) {
+  left: 106%;
+  animation-delay: 17.6334195293s;
+  animation-duration: 15.5002888404s;
+  width: 6.4514926805px;
+  height: 6.4514926805px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(55) {
+  left: 33%;
+  animation-delay: 15.2220246881s;
+  animation-duration: 18.0616515072s;
+  width: 5.5365922635px;
+  height: 5.5365922635px;
+  background-color: #e5e9f0;
+}
+.flake-layer .flake:nth-child(56) {
+  left: 135%;
+  animation-delay: 19.5397104331s;
+  animation-duration: 30.6799410452s;
+  width: 3.2594586754px;
+  height: 3.2594586754px;
+  background-color: #9ba9c6;
+}
+.flake-layer .flake:nth-child(57) {
+  left: 87%;
+  animation-delay: 0.2637280679s;
+  animation-duration: 14.4479475713s;
+  width: 6.9213983167px;
+  height: 6.9213983167px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(58) {
+  left: 34%;
+  animation-delay: 4.4358939032s;
+  animation-duration: 23.7724482797s;
+  width: 4.2065503234px;
+  height: 4.2065503234px;
+  background-color: #bac4d8;
+}
+.flake-layer .flake:nth-child(59) {
+  left: 135%;
+  animation-delay: 3.4354725195s;
+  animation-duration: 18.468564666s;
+  width: 5.4146059431px;
+  height: 5.4146059431px;
+  background-color: #e1e5ee;
+}
+.flake-layer .flake:nth-child(60) {
+  left: 111%;
+  animation-delay: 17.7432248802s;
+  animation-duration: 13.7037100025s;
+  width: 7.2972939431px;
+  height: 7.2972939431px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(61) {
+  left: 12%;
+  animation-delay: 3.5968616301s;
+  animation-duration: 13.7232845723s;
+  width: 7.286885255px;
+  height: 7.286885255px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(62) {
+  left: 28%;
+  animation-delay: 8.6344922389s;
+  animation-duration: 13.8477395817s;
+  width: 7.2213951894px;
+  height: 7.2213951894px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(63) {
+  left: 40%;
+  animation-delay: 9.3840167568s;
+  animation-duration: 13.8086437293s;
+  width: 7.2418408325px;
+  height: 7.2418408325px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(64) {
+  left: 54%;
+  animation-delay: 19.8598371998s;
+  animation-duration: 21.988629358s;
+  width: 4.5478050665px;
+  height: 4.5478050665px;
+  background-color: #c5cdde;
+}
+.flake-layer .flake:nth-child(65) {
+  left: 68%;
+  animation-delay: 11.5265459562s;
+  animation-duration: 15.8456739633s;
+  width: 6.3108707292px;
+  height: 6.3108707292px;
+  background-color: #fefeff;
+}
+.flake-layer .flake:nth-child(66) {
+  left: 141%;
+  animation-delay: 19.2439581853s;
+  animation-duration: 24.9711885868s;
+  width: 4.0046151449px;
+  height: 4.0046151449px;
+  background-color: #b3bed4;
+}
+.flake-layer .flake:nth-child(67) {
+  left: 23%;
+  animation-delay: 9.3676755935s;
+  animation-duration: 16.8344499576s;
+  width: 5.9402000215px;
+  height: 5.9402000215px;
+  background-color: #f2f4f8;
+}
+.flake-layer .flake:nth-child(68) {
+  left: 147%;
+  animation-delay: 9.5021399243s;
+  animation-duration: 26.6624933925s;
+  width: 3.7505869585px;
+  height: 3.7505869585px;
+  background-color: #abb7cf;
+}
+.flake-layer .flake:nth-child(69) {
+  left: 38%;
+  animation-delay: 16.8509790028s;
+  animation-duration: 28.8465203565s;
+  width: 3.4666226208px;
+  height: 3.4666226208px;
+  background-color: #a2afca;
+}
+.flake-layer .flake:nth-child(70) {
+  left: 12%;
+  animation-delay: 17.6519162376s;
+  animation-duration: 21.3594078694s;
+  width: 4.6817777258px;
+  height: 4.6817777258px;
+  background-color: #c9d1e0;
+}
+.flake-layer .flake:nth-child(71) {
+  left: 125%;
+  animation-delay: 10.3307874751s;
+  animation-duration: 39.2387144434s;
+  width: 2.5485034721px;
+  height: 2.5485034721px;
+  background-color: #8496b9;
+}
+.flake-layer .flake:nth-child(72) {
+  left: 81%;
+  animation-delay: 15.8060489213s;
+  animation-duration: 14.472855679s;
+  width: 6.9094864357px;
+  height: 6.9094864357px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(73) {
+  left: 69%;
+  animation-delay: 5.2500866886s;
+  animation-duration: 22.3629979424s;
+  width: 4.4716723696px;
+  height: 4.4716723696px;
+  background-color: #c3cbdc;
+}
+.flake-layer .flake:nth-child(74) {
+  left: 61%;
+  animation-delay: 16.0957804149s;
+  animation-duration: 26.7660073192s;
+  width: 3.7360820688px;
+  height: 3.7360820688px;
+  background-color: #abb7cf;
+}
+.flake-layer .flake:nth-child(75) {
+  left: 104%;
+  animation-delay: 18.4555001028s;
+  animation-duration: 23.1259222282s;
+  width: 4.3241518765px;
+  height: 4.3241518765px;
+  background-color: #bec7da;
+}
+.flake-layer .flake:nth-child(76) {
+  left: 89%;
+  animation-delay: 12.9120750922s;
+  animation-duration: 17.2208887698s;
+  width: 5.8069012196px;
+  height: 5.8069012196px;
+  background-color: #eef0f5;
+}
+.flake-layer .flake:nth-child(77) {
+  left: 54%;
+  animation-delay: 2.1994242764s;
+  animation-duration: 15.0149293818s;
+  width: 6.6600379834px;
+  height: 6.6600379834px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(78) {
+  left: 46%;
+  animation-delay: 11.2431900494s;
+  animation-duration: 29.1378003918s;
+  width: 3.4319680503px;
+  height: 3.4319680503px;
+  background-color: #a1aec9;
+}
+.flake-layer .flake:nth-child(79) {
+  left: 107%;
+  animation-delay: 6.4753443654s;
+  animation-duration: 22.6651154285s;
+  width: 4.4120666544px;
+  height: 4.4120666544px;
+  background-color: #c1cadb;
+}
+.flake-layer .flake:nth-child(80) {
+  left: 9%;
+  animation-delay: 19.7889526585s;
+  animation-duration: 23.7601386498s;
+  width: 4.208729649px;
+  height: 4.208729649px;
+  background-color: #bac4d8;
+}
+.flake-layer .flake:nth-child(81) {
+  left: 6%;
+  animation-delay: 10.3757175148s;
+  animation-duration: 14.230607015s;
+  width: 7.0271071286px;
+  height: 7.0271071286px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(82) {
+  left: 18%;
+  animation-delay: 2.6970066784s;
+  animation-duration: 35.0110880782s;
+  width: 2.8562379946px;
+  height: 2.8562379946px;
+  background-color: #8e9ebf;
+}
+.flake-layer .flake:nth-child(83) {
+  left: 67%;
+  animation-delay: 8.0455756402s;
+  animation-duration: 15.9990801907s;
+  width: 6.2503593211px;
+  height: 6.2503593211px;
+  background-color: #fcfdfd;
+}
+.flake-layer .flake:nth-child(84) {
+  left: 115%;
+  animation-delay: 11.0799796644s;
+  animation-duration: 25.9828157936s;
+  width: 3.8486975698px;
+  height: 3.8486975698px;
+  background-color: #aebad1;
+}
+.flake-layer .flake:nth-child(85) {
+  left: 94%;
+  animation-delay: 3.9083490323s;
+  animation-duration: 14.5204840388s;
+  width: 6.8868227625px;
+  height: 6.8868227625px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(86) {
+  left: 112%;
+  animation-delay: 5.4419126776s;
+  animation-duration: 18.6575657565s;
+  width: 5.3597559995px;
+  height: 5.3597559995px;
+  background-color: #dfe4ed;
+}
+.flake-layer .flake:nth-child(87) {
+  left: 81%;
+  animation-delay: 0.5204400762s;
+  animation-duration: 16.1361708004s;
+  width: 6.1972571583px;
+  height: 6.1972571583px;
+  background-color: #fbfbfc;
+}
+.flake-layer .flake:nth-child(88) {
+  left: 58%;
+  animation-delay: 17.2793258592s;
+  animation-duration: 18.0713697574s;
+  width: 5.5336148473px;
+  height: 5.5336148473px;
+  background-color: #e5e9f0;
+}
+.flake-layer .flake:nth-child(89) {
+  left: 135%;
+  animation-delay: 2.3624603348s;
+  animation-duration: 18.3768884277s;
+  width: 5.4416176271px;
+  height: 5.4416176271px;
+  background-color: #e2e6ee;
+}
+.flake-layer .flake:nth-child(90) {
+  left: 132%;
+  animation-delay: 12.3806101858s;
+  animation-duration: 25.9357927791s;
+  width: 3.8556754695px;
+  height: 3.8556754695px;
+  background-color: #afbad1;
+}
+.flake-layer .flake:nth-child(91) {
+  left: 92%;
+  animation-delay: 14.014015955s;
+  animation-duration: 17.8357656266s;
+  width: 5.6067119345px;
+  height: 5.6067119345px;
+  background-color: #e7ebf2;
+}
+.flake-layer .flake:nth-child(92) {
+  left: 51%;
+  animation-delay: 11.4989162649s;
+  animation-duration: 22.3139843701s;
+  width: 4.4814945794px;
+  height: 4.4814945794px;
+  background-color: #c3cbdd;
+}
+.flake-layer .flake:nth-child(93) {
+  left: 97%;
+  animation-delay: 9.6888809516s;
+  animation-duration: 23.8033965289s;
+  width: 4.2010811305px;
+  height: 4.2010811305px;
+  background-color: #bac4d7;
+}
+.flake-layer .flake:nth-child(94) {
+  left: 72%;
+  animation-delay: 2.4163035753s;
+  animation-duration: 33.4880085444s;
+  width: 2.9861435286px;
+  height: 2.9861435286px;
+  background-color: #92a2c1;
+}
+.flake-layer .flake:nth-child(95) {
+  left: 119%;
+  animation-delay: 7.8854358554s;
+  animation-duration: 22.7896410739s;
+  width: 4.3879585324px;
+  height: 4.3879585324px;
+  background-color: #c0c9db;
+}
+.flake-layer .flake:nth-child(96) {
+  left: 121%;
+  animation-delay: 12.4782003728s;
+  animation-duration: 37.0560316405s;
+  width: 2.6986160032px;
+  height: 2.6986160032px;
+  background-color: #899abc;
+}
+.flake-layer .flake:nth-child(97) {
+  left: 108%;
+  animation-delay: 9.2147190573s;
+  animation-duration: 22.1087159444s;
+  width: 4.5231030265px;
+  height: 4.5231030265px;
+  background-color: #c4cddd;
+}
+.flake-layer .flake:nth-child(98) {
+  left: 48%;
+  animation-delay: 6.4243238999s;
+  animation-duration: 15.124541038s;
+  width: 6.6117708794px;
+  height: 6.6117708794px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(99) {
+  left: 29%;
+  animation-delay: 1.044206475s;
+  animation-duration: 18.5532177866s;
+  width: 5.3899006173px;
+  height: 5.3899006173px;
+  background-color: #e0e5ee;
+}
+.flake-layer .flake:nth-child(100) {
+  left: 95%;
+  animation-delay: 1.3883839164s;
+  animation-duration: 25.5884428356s;
+  width: 3.9080142798px;
+  height: 3.9080142798px;
+  background-color: #b0bcd2;
+}
+.flake-layer .flake:nth-child(101) {
+  left: 49%;
+  animation-delay: 10.0615404787s;
+  animation-duration: 17.8624884598s;
+  width: 5.5983241207px;
+  height: 5.5983241207px;
+  background-color: #e7ebf1;
+}
+.flake-layer .flake:nth-child(102) {
+  left: 88%;
+  animation-delay: 15.0481565964s;
+  animation-duration: 28.0522924553s;
+  width: 3.5647710489px;
+  height: 3.5647710489px;
+  background-color: #a5b2cc;
+}
+.flake-layer .flake:nth-child(103) {
+  left: 12%;
+  animation-delay: 12.9064381973s;
+  animation-duration: 21.2852951138s;
+  width: 4.6980790948px;
+  height: 4.6980790948px;
+  background-color: #cad2e1;
+}
+.flake-layer .flake:nth-child(104) {
+  left: 89%;
+  animation-delay: 0.2358872528s;
+  animation-duration: 16.4519879416s;
+  width: 6.0782928091px;
+  height: 6.0782928091px;
+  background-color: #f7f8fa;
+}
+.flake-layer .flake:nth-child(105) {
+  left: 142%;
+  animation-delay: 3.9735535659s;
+  animation-duration: 38.0981589654s;
+  width: 2.6247987492px;
+  height: 2.6247987492px;
+  background-color: #8798ba;
+}
+.flake-layer .flake:nth-child(106) {
+  left: 31%;
+  animation-delay: 3.6650006978s;
+  animation-duration: 16.4755298179s;
+  width: 6.0696075395px;
+  height: 6.0696075395px;
+  background-color: #f6f8fa;
+}
+.flake-layer .flake:nth-child(107) {
+  left: 121%;
+  animation-delay: 15.7089118691s;
+  animation-duration: 14.0494777164s;
+  width: 7.1177023103px;
+  height: 7.1177023103px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(108) {
+  left: 65%;
+  animation-delay: 7.1652717858s;
+  animation-duration: 16.8361483713s;
+  width: 5.9396007801px;
+  height: 5.9396007801px;
+  background-color: #f2f4f8;
+}
+.flake-layer .flake:nth-child(109) {
+  left: 117%;
+  animation-delay: 11.2967470981s;
+  animation-duration: 15.5798563294s;
+  width: 6.4185444259px;
+  height: 6.4185444259px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(110) {
+  left: 91%;
+  animation-delay: 9.4765659566s;
+  animation-duration: 16.8354121008s;
+  width: 5.9398605393px;
+  height: 5.9398605393px;
+  background-color: #f2f4f8;
+}
+.flake-layer .flake:nth-child(111) {
+  left: 149%;
+  animation-delay: 1.4941033754s;
+  animation-duration: 21.4951237392s;
+  width: 4.6522179269px;
+  height: 4.6522179269px;
+  background-color: #c8d0e0;
+}
+.flake-layer .flake:nth-child(112) {
+  left: 28%;
+  animation-delay: 11.9925463204s;
+  animation-duration: 23.3896635027s;
+  width: 4.2753928456px;
+  height: 4.2753928456px;
+  background-color: #bcc6d9;
+}
+.flake-layer .flake:nth-child(113) {
+  left: 58%;
+  animation-delay: 5.3143820602s;
+  animation-duration: 36.3941498394s;
+  width: 2.7476943531px;
+  height: 2.7476943531px;
+  background-color: #8b9bbd;
+}
+.flake-layer .flake:nth-child(114) {
+  left: 13%;
+  animation-delay: 16.6136984695s;
+  animation-duration: 22.4369091903s;
+  width: 4.4569418698px;
+  height: 4.4569418698px;
+  background-color: #c2cbdc;
+}
+.flake-layer .flake:nth-child(115) {
+  left: 79%;
+  animation-delay: 9.2411723174s;
+  animation-duration: 30.8432156745s;
+  width: 3.2422040897px;
+  height: 3.2422040897px;
+  background-color: #9ba9c6;
+}
+.flake-layer .flake:nth-child(116) {
+  left: 65%;
+  animation-delay: 13.8049987479s;
+  animation-duration: 13.706162322s;
+  width: 7.2959883044px;
+  height: 7.2959883044px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(117) {
+  left: 56%;
+  animation-delay: 12.9862768073s;
+  animation-duration: 27.7350625322s;
+  width: 3.6055444218px;
+  height: 3.6055444218px;
+  background-color: #a6b3cc;
+}
+.flake-layer .flake:nth-child(118) {
+  left: 16%;
+  animation-delay: 2.0041774149s;
+  animation-duration: 18.4165311289s;
+  width: 5.4299042149px;
+  height: 5.4299042149px;
+  background-color: #e2e6ee;
+}
+.flake-layer .flake:nth-child(119) {
+  left: 10%;
+  animation-delay: 11.5105825421s;
+  animation-duration: 19.8250567728s;
+  width: 5.0441217469px;
+  height: 5.0441217469px;
+  background-color: #d5dbe7;
+}
+.flake-layer .flake:nth-child(120) {
+  left: 71%;
+  animation-delay: 8.080265311s;
+  animation-duration: 14.3039817705s;
+  width: 6.9910603638px;
+  height: 6.9910603638px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(121) {
+  left: 108%;
+  animation-delay: 17.9178998004s;
+  animation-duration: 29.4929494358s;
+  width: 3.390640879px;
+  height: 3.390640879px;
+  background-color: #9fadc8;
+}
+.flake-layer .flake:nth-child(122) {
+  left: 142%;
+  animation-delay: 4.9377336161s;
+  animation-duration: 15.7741503396s;
+  width: 6.3394856678px;
+  height: 6.3394856678px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(123) {
+  left: 45%;
+  animation-delay: 6.0267093854s;
+  animation-duration: 23.0858288205s;
+  width: 4.3316616777px;
+  height: 4.3316616777px;
+  background-color: #bec7da;
+}
+.flake-layer .flake:nth-child(124) {
+  left: 95%;
+  animation-delay: 16.5944063083s;
+  animation-duration: 33.6923456371s;
+  width: 2.968033187px;
+  height: 2.968033187px;
+  background-color: #92a1c1;
+}
+.flake-layer .flake:nth-child(125) {
+  left: 87%;
+  animation-delay: 12.0391669074s;
+  animation-duration: 20.4333229958s;
+  width: 4.8939665869px;
+  height: 4.8939665869px;
+  background-color: #d0d7e4;
+}
+.flake-layer .flake:nth-child(126) {
+  left: 58%;
+  animation-delay: 14.5280952333s;
+  animation-duration: 35.9855446135s;
+  width: 2.7788936106px;
+  height: 2.7788936106px;
+  background-color: #8c9cbd;
+}
+.flake-layer .flake:nth-child(127) {
+  left: 101%;
+  animation-delay: 16.8156360721s;
+  animation-duration: 22.3263644459s;
+  width: 4.4790095693px;
+  height: 4.4790095693px;
+  background-color: #c3cbdd;
+}
+.flake-layer .flake:nth-child(128) {
+  left: 132%;
+  animation-delay: 11.6394197086s;
+  animation-duration: 16.3066123892s;
+  width: 6.1324815733px;
+  height: 6.1324815733px;
+  background-color: #f8f9fb;
+}
+.flake-layer .flake:nth-child(129) {
+  left: 120%;
+  animation-delay: 1.8452941146s;
+  animation-duration: 13.8867004535s;
+  width: 7.2011346637px;
+  height: 7.2011346637px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(130) {
+  left: 90%;
+  animation-delay: 12.7774724334s;
+  animation-duration: 17.6797204599s;
+  width: 5.6561980279px;
+  height: 5.6561980279px;
+  background-color: #e9ecf2;
+}
+.flake-layer .flake:nth-child(131) {
+  left: 63%;
+  animation-delay: 1.2692799734s;
+  animation-duration: 22.3819041699s;
+  width: 4.4678951014px;
+  height: 4.4678951014px;
+  background-color: #c2cbdc;
+}
+.flake-layer .flake:nth-child(132) {
+  left: 3%;
+  animation-delay: 4.7318383461s;
+  animation-duration: 24.2308741808s;
+  width: 4.126966252px;
+  height: 4.126966252px;
+  background-color: #b7c2d6;
+}
+.flake-layer .flake:nth-child(133) {
+  left: 50%;
+  animation-delay: 18.1027230707s;
+  animation-duration: 25.7343105198s;
+  width: 3.8858628026px;
+  height: 3.8858628026px;
+  background-color: #b0bbd2;
+}
+.flake-layer .flake:nth-child(134) {
+  left: 33%;
+  animation-delay: 16.3775073565s;
+  animation-duration: 36.7424499809s;
+  width: 2.721647578px;
+  height: 2.721647578px;
+  background-color: #8a9bbc;
+}
+.flake-layer .flake:nth-child(135) {
+  left: 56%;
+  animation-delay: 6.8019606619s;
+  animation-duration: 24.8622757444s;
+  width: 4.0221579484px;
+  height: 4.0221579484px;
+  background-color: #b4bfd4;
+}
+.flake-layer .flake:nth-child(136) {
+  left: 72%;
+  animation-delay: 1.6007006573s;
+  animation-duration: 16.3324684438s;
+  width: 6.1227731952px;
+  height: 6.1227731952px;
+  background-color: #f8f9fb;
+}
+.flake-layer .flake:nth-child(137) {
+  left: 149%;
+  animation-delay: 0.5387102541s;
+  animation-duration: 22.0116341651s;
+  width: 4.5430520628px;
+  height: 4.5430520628px;
+  background-color: #c5cdde;
+}
+.flake-layer .flake:nth-child(138) {
+  left: 143%;
+  animation-delay: 3.6164951105s;
+  animation-duration: 17.1844910947s;
+  width: 5.8192005483px;
+  height: 5.8192005483px;
+  background-color: #eef1f5;
+}
+.flake-layer .flake:nth-child(139) {
+  left: 116%;
+  animation-delay: 8.0913963975s;
+  animation-duration: 19.2051477538s;
+  width: 5.2069372901px;
+  height: 5.2069372901px;
+  background-color: #dae0ea;
+}
+.flake-layer .flake:nth-child(140) {
+  left: 12%;
+  animation-delay: 9.5603099438s;
+  animation-duration: 17.008591055s;
+  width: 5.8793817593px;
+  height: 5.8793817593px;
+  background-color: #f0f2f7;
+}
+.flake-layer .flake:nth-child(141) {
+  left: 124%;
+  animation-delay: 17.8187849821s;
+  animation-duration: 17.8474477368s;
+  width: 5.6030420414px;
+  height: 5.6030420414px;
+  background-color: #e7ebf1;
+}
+.flake-layer .flake:nth-child(142) {
+  left: 72%;
+  animation-delay: 1.3426923348s;
+  animation-duration: 17.5775927087s;
+  width: 5.689061162px;
+  height: 5.689061162px;
+  background-color: #eaedf3;
+}
+.flake-layer .flake:nth-child(143) {
+  left: 43%;
+  animation-delay: 13.4494436935s;
+  animation-duration: 13.9464725183s;
+  width: 7.1702718998px;
+  height: 7.1702718998px;
+  background-color: white;
+}
+.flake-layer .flake:nth-child(144) {
+  left: 22%;
+  animation-delay: 9.7952124227s;
+  animation-duration: 28.4636104119s;
+  width: 3.5132577545px;
+  height: 3.5132577545px;
+  background-color: #a3b1cb;
+}
+.flake-layer .flake:nth-child(145) {
+  left: 126%;
+  animation-delay: 8.7881904761s;
+  animation-duration: 15.8422964992s;
+  width: 6.3122161617px;
+  height: 6.3122161617px;
+  background-color: #fefeff;
+}
+.flake-layer .flake:nth-child(146) {
+  left: 24%;
+  animation-delay: 10.6920912218s;
+  animation-duration: 30.595054776s;
+  width: 3.2685020743px;
+  height: 3.2685020743px;
+  background-color: #9caac6;
+}
+.flake-layer .flake:nth-child(147) {
+  left: 97%;
+  animation-delay: 2.1284145624s;
+  animation-duration: 37.8344058769s;
+  width: 2.6430968766px;
+  height: 2.6430968766px;
+  background-color: #8798bb;
+}
+.flake-layer .flake:nth-child(148) {
+  left: 93%;
+  animation-delay: 13.317830516s;
+  animation-duration: 22.9975860196s;
+  width: 4.3482824639px;
+  height: 4.3482824639px;
+  background-color: #bfc8da;
+}
+.flake-layer .flake:nth-child(149) {
+  left: 47%;
+  animation-delay: 13.6714729154s;
+  animation-duration: 16.6081560516s;
+  width: 6.0211380294px;
+  height: 6.0211380294px;
+  background-color: #f5f6f9;
+}
+.flake-layer .flake:nth-child(150) {
+  left: 88%;
+  animation-delay: 12.191601189s;
+  animation-duration: 17.5991607527s;
+  width: 5.6820891294px;
+  height: 5.6820891294px;
+  background-color: #eaedf3;
+}/*# sourceMappingURL=snow.css.map */
